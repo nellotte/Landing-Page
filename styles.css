@@ -1,0 +1,22 @@
+
+.gringas {
+  background-image: url(Gringas_fondas.JPG);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+
+/* styles.css */
+/* Styles pour les cartes */
+.card {
+  width: 300px; /* Largeur fixe pour la carte */
+  height: 300px; /* Hauteur fixe pour la carte */
+}
+
+/* Styles pour les images dans les cartes */
+.card-img-top {
+  width: 100%; /* Largeur de l'image à 100% de la largeur de la carte */
+  height: 50%; /* Hauteur de l'image à 60% de la hauteur de la carte */
+  object-fit: cover; /* Ajuste l'image pour remplir complètement le conteneur */
+}
